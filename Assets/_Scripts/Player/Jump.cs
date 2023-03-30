@@ -1,12 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
 public class Jump : MonoBehaviour
 {
     private Rigidbody _rigidbody;
-    private float _jumpForce = 250.0f;
+    private float _jumpForce = 150.0f;
 
     private void Start()
     {
